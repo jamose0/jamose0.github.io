@@ -5,4 +5,12 @@ body {
 .header {
 	border-bottom: double 3px;
 	text-align: center;
+        max-width: 70%;
+        margin: auto;
+}
+
+.other {
+        text-align: center;
+        max-width: 70%;
+        margin: auto;
 }
