@@ -28,9 +28,9 @@
 			tangent line to the curve of \(f(x)\) at \(x = x_0\) crosses the \(x\)
 			axis. Since the equation of the tangent line at this point
 			is \(y = f(x_0) + f'(x_0)(x_1- x_0)\), the value of \(x_1\)
-			is:
+			is (let \(y = 0\)):
 			\[x_1 = x_0 - {f(x_0)\over f'(x_0)}.\]
-			We take an initial guess, \(x_0\), and use it to approximate
+			We have taken an initial guess, \(x_0\), and used it to approximate
 			the root (our approximation is \(x_1\)). Now, the key is 
 			to take this approximation and compute \(x_1 - {f(x_1)\over f'(x_1)}\).
 			This yields \(x_2\), which is closer to the root. We do this over
@@ -49,10 +49,10 @@
 			as the complex plane. It spans from \(-1+i\) in the upper left to \(1-i\)
 			in the bottom right. Each point in the plane is colored according to which
 			root it causes Newton's method to converge to. We know that the roots
-			of \(x^2 - 3\) are \(\sqrt{3}\) and \(-\sqrt{3}\). All the purple reigons
-			in the graph cause Newton's method to converge to \(\sqrt{3}\) and all of the 
+			of \(x^2 - 3\) are \(\sqrt{3}\) and \(-\sqrt{3}\). All points in the purple reigon
+			of the graph cause Newton's method to converge to \(\sqrt{3}\) and all of the 
 			white points cause it to converge to \(\sqrt(-3)\). Only one number causes
-			Newton's Method to fail and that is \(x = 0\) because \(f'(0) = 0\) and thus
+			Newton's Method to fail and that is \(x = 0\) because \(f'(0) = 0\) and 
 			we would have to divide by zero.
 		</p>
 
