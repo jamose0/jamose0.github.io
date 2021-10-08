@@ -1,5 +1,5 @@
 body {
-	background-color: #e0ecff;
+	background-color: #273346;
 }
 
 .header {
@@ -9,8 +9,8 @@ body {
         margin: auto;
 }
 
-.title {
-        text-align: center;
+.conts {
+        text-align: left;
         max-width: 70%;
         margin: auto;
 }
